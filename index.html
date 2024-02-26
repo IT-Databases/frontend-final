@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="assets/img/logo.svg" />
+    <link rel="icon" type="image/x-icon" href="assets/img/icons/Yamali Logo.svg" />
 
-    <title>ICG2E 2023 | HASANUDDIN UNIVERSITY</title>
+    <title>YAMALI TB | Yayasan Masyarakat Peduli Tuberkulosis Sulawesi Selatan </title>
 
     <!--- ==================== GOOGLE FONT ===================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,27 +27,31 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
 
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+
     <link href="assets/css/main.css" rel="stylesheet" />
   </head>
 
   <body>
     <!--- ==================== HEADER ===================== -->
-    <header class="fixed top-0 z-50 w-full">
+    <header class="fixed top-0 z-50 w-full bg-slate-200">
       <nav
-        class="mx-auto mt-4 flex w-[92vw] items-center gap-x-4 rounded-lg bg-slate-300 bg-opacity-60 bg-clip-padding px-4 py-2 shadow-md shadow-slate-300/30 backdrop-blur-xl backdrop-filter transition-all xs:px-8 xl:px-4"
+        class="mx-auto mt-4 flex w-[92vw] items-center gap-x-4 rounded-lg bg-opacity-60 bg-clip-padding px-4 py-2 shadow-md shadow-slate-300/30 backdrop-blur-xl backdrop-filter transition-all xs:px-8 xl:px-4"
         id="nav"
       >
         <div
           class="inline-flex w-full items-center justify-between gap-x-2 font-raleway text-xl text-orange-lemon xl:w-[initial]"
         >
           <img
-            src="assets/img/logo.svg"
+            src="assets/img/icons/Yamali Logo.svg"
             alt=""
             width="40"
             height="40"
             class="inline-block"
           />
-          <span> ICG2E 2023 </span>
+          <span> YAMALI TB SULSEL </span>
           <i
             class="bx bx-menu-alt-right inline-flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-lg border border-orange-lemon text-2xl xl:hidden"
             aria-label="menu"
@@ -65,71 +69,49 @@
               <a
                 href="#home"
                 class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Home</a
+                >BERANDA</a
               >
             </li>
             <li>
               <a
                 href="#about"
                 class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >About Us</a
+                >TENTANG KAMI</a
               >
             </li>
             <li>
               <a
                 href="#topics"
                 class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Topics</a
+                >PROGRAM KERJA</a
               >
             </li>
             <li>
               <a
                 href="#fee"
                 class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Fee</a
+                >BERITA</a
               >
             </li>
             <li>
               <a
-                href="#date"
+                href="#report"
                 class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Important Date</a
+                >REPORT DISKRIMINASI</a
               >
             </li>
-            <li>
-              <a
-                href="#submission"
-                class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Submission</a
-              >
-            </li>
-            <li>
-              <a
-                href="#speakers"
-                class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Speakers</a
-              >
-            </li>
-            <li>
-              <a
-                href="#committee"
-                class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Committee</a
-              >
-            </li>
-
             <li>
               <a
                 href="#contact"
                 class="rounded-md p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Contact Us</a
+                >HUBUNGI KAMI</a
               >
             </li>
             <li>
               <a
                 href="#"
                 class="rounded-md border-2 border-orange-lemon p-2 transition hover:bg-orange-lemon hover:text-white"
-                >Registration</a
+                >LOGIN</a
               >
             </li>
           </ul>
@@ -145,27 +127,26 @@
       >
         <div class="absolute inset-0 bg-black/20"></div>
         <div
-          class="container relative z-10 flex flex-col items-center justify-between gap-y-10 px-4 pt-32 xs:px-8 xl:min-h-[100vh] xl:flex-row xl:px-12 xl:pt-24"
+          class="container relative z-10 flex flex-col items-center justify-between gap-y-10 px-4 pt-32 xs:px-8 xl:min-h-[100vh] xl:flex-row xl:px-12 xl:pt-24 "
         >
           <h1
-            class="home__title text-center font-jost text-xl font-bold leading-[1.4] text-white sm:text-3xl xl:text-left xl:text-[2.75rem] xl:leading-[1.5]"
+            class="home__title text-center font-jost text-xl font-bold leading-[1.4] text-white sm:text-3xl xl:text-left xl:text-[2.40rem] xl:leading-[1.5]"
           >
             Welcome To <br />
-            The International <br />
-            Conference on Geoscience <br />
-            and Geological Engineering
+            YAMALI TB SULSEL <br />
+            YAYASAN MASYARAKAT PEDULI <br />
+            TUBERKULOSIS SULAWESI SELATAN  <br />
           </h1>
           <div>
             <img
-              src="assets/img/hero-header.png"
-              alt=""
-              class="home__img w-[400px] drop-shadow-md xl:w-[550px]"
+              src="assets/img/hero.svg"
+              alt="YAMALI TB"
+              class="home__img w-[400px] items-center drop-shadow-md xl:w-[700px] xl:pl-60"
             />
             <p
-              class="home__p pt-14 text-center font-poppins text-[.8rem] font-semibold leading-[1.5] tracking-wide text-white sm:pb-8 sm:pt-14 xl:mr-8 xl:pb-0 xl:pt-32 xl:text-right xl:text-xl"
+              class="home__p pt-10 text-center font-poppins text-[.8rem] font-semibold leading-[1.5] tracking-wide text-white sm:pb-8 sm:pt-14 xl:mr-8 xl:pb-0 xl:pt-3 xl:text-right xl:text-xl"
             >
-              DEPARTMENT OF GEOLOGICAL ENGINEERING <br />
-              FACULTY OF ENGINEERING HASANUDDIN UNIVERSITY
+              "Kolaborasi Masyarakat Sipil Untuk Indonesia Bebas Tuberkulosis."
             </p>
           </div>
         </div>
@@ -177,27 +158,24 @@
           class="container flex flex-col items-center gap-x-6 gap-y-10 px-4 text-center font-jost xs:px-8 xl:flex-row xl:px-12 xl:text-left"
         >
           <div class="about">
-            <h2 class="section-title text-navy-blue">About Us</h2>
+            <h2 class="section-title text-navy-blue">Tentang Kami</h2>
             <p class="mt-4 text-xl xl:text-3xl">
-              ICG2E 2023 <br />
-              INTERNATIONAL CONFERENCE
+              Profile <br />
+              YAMALI TB Sulawesi Selatan
             </p>
             <p class="mt-6 text-sm leading-[1.85] xl:text-base">
-              The 1th International Conference on Geoscience and Engineering
-              Geology (ICG2E) is the first international seminar held by the
-              Department of Geological Engineering, Faculty of Engineering,
-              Hasanuddin University. This seminar is planned to be held
-              routinely every year. In this activity, apart from providing
-              opportunities for researchers to present and publish their
-              research results, this seminar also emphasizes increasing and
-              strengthening triple helix cooperation among three elements
-              (university, industry, government or UIG) in improving the quality
-              of research results in order to support National development.
+              Yayasan Masyarakat Peduli Tuberkulosis Sulawesi Selatan atau disingkat Yamali TB Sulsel adalah sebuah yayasan yang bergerak dalam mengkolaborasikan kekuatan masyarakat sipil untuk kemanusiaan, 
+              kepedulian dan perhatian pada individu dan atau masyarakat terdampak persoalan sosial kesehatan, khususnya Tuberkulosis.
+              Berdiri pada 18 September 2016 dengan nama KMP TB ASA yang pembentukannya difasilitasi oleh TB Care Aisyiyah Sulsel. 
+              Berbagai aksi dan kegiatan untuk upaya penaggulangan penyakit Tuberkulosis (TBC) telah dilakukan; pencarian kasus, 
+              penyediaan rumah singgah, pemberian bantuan nutrisi, hingga support pendampingan sampai sembuh bagi penyintas TBC. 
+              Dalam perjalanannya, KMP TB ASA mengalami perkembangan dan mendapat pengakuan dari banyak pihak sehingga terhitung sejak 25 Agustus 2020 dalam rangka memperkuat kemandirian dan status badan hukum, 
+              maka ia berganti nama menjadi Yayasan Masyarakat Peduli Tuberkulosis Sulawesi Selatan.
             </p>
           </div>
           <img
-            src="assets/img/hero-about.png"
-            alt=""
+            src="assets/img/Profile-YamaliTB.jpeg"
+            alt="Yamali TB Sulsel"
             class="about__img rounded-lg shadow-2xl"
             width="530"
             loading="lazy"
@@ -205,180 +183,130 @@
         </div>
       </section>
 
-      <!--- ==================== TOPICS ===================== -->
-      <section class="bg-orange-lemon py-20 xl:py-24" id="topics">
+      <!--- ==================== Tim Kami ===================== -->
+      <section class="bg-[#F3F5FA] py-20 xl:py-24" id="about">
         <div class="container text-center xs:px-8 xl:px-12">
-          <span class="section-subtitle !text-white">TOPICS</span>
+          <span class="section-subtitle !text-navy-blue">BEHIND</span>
           <h2
-            class="section-title section-title-border text-white after:!bg-[#FFC451]"
+            class="section-title section-title-border text-navy-blue after:!bg-[#FFC451]"
           >
-            TOPICS SEMINAR
+            TIM YAMALI
           </h2>
 
           <div
             class="swiper-topics swiper mt-20 !overflow-visible px-10 xl:px-0"
           >
             <div class="swiper-wrapper">
+
               <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
               >
                 <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
                 >
                   <img
-                    src="assets/img/icons/topics1.svg"
-                    alt=""
-                    class="inline-block"
+                    src="assets/img/speaker/kasri.jpeg"
+                    alt="Kasri Riswadi"
+                    class="inline-block h-[250px] w-[250px]"
                   />
                 </span>
-                <p class="font-semibold">Civil and Environmental Engineering</p>
+                <p class="font-semibold">Kasri Riswadi</p>
+                <p class="font-bold">KETUA YAMALI TB</p>
               </article>
+
               <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
               >
                 <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
                 >
                   <img
-                    src="assets/img/icons/topics2.svg"
-                    alt=""
-                    class="inline-block"
+                    src="assets/img/speaker/masnidar.jpg"
+                    alt="Masnidar"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
                   />
                 </span>
-                <p class="font-semibold">
-                  Mechanical and Industrial Engineering
-                </p>
-              </article>
+                <p class="font-semibold">Masnidar</p>
+                <p class="font-bold">BENDAHARA YAMALI TB</p>
+              </article>  
+
               <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
               >
                 <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
                 >
                   <img
-                    src="assets/img/icons/topics3.svg"
-                    alt=""
-                    class="inline-block"
+                    src="assets/img/speaker/niken.png"
+                    alt="Niken"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
                   />
                 </span>
-                <p class="font-semibold">Naval, Ocean and Marine Engineering</p>
-              </article>
+                <p class="font-semibold">Niken</p>
+                <p class="font-bold">SEKRETARIS YAMALI TB</p>
+              </article>  
               <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
               >
                 <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
                 >
                   <img
-                    src="assets/img/icons/topics4.svg"
-                    alt=""
-                    class="inline-block"
+                    src="assets/img/speaker/kama.jpeg.jpg"
+                    alt="Niken"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
                   />
                 </span>
-                <p class="font-semibold">
-                  Control System and Digital Technology
-                </p>
-              </article>
+                <p class="font-semibold">Kamaruddin</p>
+                <p class="font-bold">DIVISI LITBANG & DATA YAMALI TB</p>
+              </article> 
               <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
               >
                 <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
                 >
                   <img
-                    src="assets/img/icons/topics5.svg"
-                    alt=""
-                    class="inline-block"
+                    src="assets/img/speaker/ilham.jpeg.jpg"
+                    alt="Niken"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
                   />
                 </span>
-                <p class="font-semibold">
-                  Transportation and Logistic Engineering
-                </p>
-              </article>
+                <p class="font-semibold">Ilham Riyadi</p>
+                <p class="font-bold">DIVISI PROGRAM YAMALI TB</p>
+              </article>  
               <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+            >
+              <span
+                class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
               >
-                <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
-                >
-                  <img
-                    src="assets/img/icons/topics6.svg"
-                    alt=""
-                    class="inline-block"
-                  />
-                </span>
-                <p class="font-semibold">Architecture and Urban Planning</p>
-              </article>
-              <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
-              >
-                <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
-                >
-                  <img
-                    src="assets/img/icons/topics7.svg"
-                    alt=""
-                    class="inline-block"
-                  />
-                </span>
-                <p class="font-semibold">Geology and Mining Engineering</p>
-              </article>
-              <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
-              >
-                <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
-                >
-                  <img
-                    src="assets/img/icons/topics8.svg"
-                    alt=""
-                    class="inline-block"
-                  />
-                </span>
-                <p class="font-semibold">Disaster Engineering</p>
-              </article>
-              <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
-              >
-                <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
-                >
-                  <img
-                    src="assets/img/icons/topics9.svg"
-                    alt=""
-                    class="inline-block"
-                  />
-                </span>
-                <p class="font-semibold">Clean and Renewable Energy</p>
-              </article>
-              <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
-              >
-                <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
-                >
-                  <img
-                    src="assets/img/icons/topics10.svg"
-                    alt=""
-                    class="inline-block"
-                  />
-                </span>
-                <p class="font-semibold">Techno-Economic Analisys</p>
-              </article>
-              <article
-                class="swiper-slide flex h-[250px] w-[250px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
-              >
-                <span
-                  class="mb-4 inline-flex h-[55px] w-[55px] items-center justify-center rounded-full bg-orange-lemon"
-                >
-                  <img
-                    src="assets/img/icons/topics11.svg"
-                    alt=""
-                    class="inline-block"
-                  />
-                </span>
-                <p class="font-semibold">Multidisciplinary Engineering</p>
-              </article>
+                <img
+                  src="assets/img/speaker/ulfa.jpeg.jpg"
+                  alt="Niken"
+                  class="inline-block h-[240px] w-[200px] rounded-md"
+                />
+              </span>
+              <p class="font-semibold">Ulfa Chairunnisa</p>
+              <p class="font-bold">DIVISI KEUANGAN YAMALI TB</p>
+            </article>  
+            <article
+            class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+          >
+            <span
+              class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+            >
+              <img
+                src="assets/img/speaker/ummu.jpeg.jpg"
+                alt="Niken"
+                class="inline-block h-[240px] w-[200px] rounded-md"
+              />
+            </span>
+            <p class="font-semibold">Ummu Kalsum</p>
+            <p class="font-bold">DIVISI BARANG & JASA YAMALI TB</p>
+          </article>  
+
+            
             </div>
 
             <div class="swiper-pagination !-bottom-16"></div>
@@ -391,191 +319,170 @@
         <div class="container px-4 font-jost xs:px-8 xl:px-12">
           <div class="fee__title text-center xl:text-left">
             <span class="section-subtitle section-subtitle-border"
-              >REGISTRATION & PAYMENT</span
+              >Newsletter</span
             >
-            <h2 class="section-title text-navy-blue">Registration & Payment</h2>
+            <h2 class="section-title text-navy-blue after:!bg-[#FFC451]">Berita Terbaru</h2>
           </div>
           <div
-            class="mt-12 grid gap-10 text-center sm:grid-cols-2 sm:gap-x-6 xl:grid-cols-3 xl:gap-10"
+            class="mt-12 items-end grid gap-10 text-center sm:grid-cols-2 sm:gap-x-6 xl:grid-cols-3 xl:gap-10"
           >
-            <article class="fee__card drop-shadow-md">
-              <div class="rounded-t-lg bg-youth-blue py-4">
-                <p class="text-white">
-                  General <br />
-                  (Lecturer, Non-Academic Affilition)
-                </p>
-              </div>
-              <div
-                class="mb-8 rounded-b-lg bg-cream-vanilla p-8 text-left sm:p-4 xl:p-8"
-              >
-                <p class="mb-2 font-semibold">
-                  <img
-                    src="assets/img/icons/rupiah.svg"
-                    alt=""
-                    width="45"
-                    class="mr-4 inline-block sm:mr-2 xl:mr-4"
-                  />
-                  Local IDR 2.500.000
-                </p>
-                <p class="font-semibold">
-                  <img
-                    src="assets/img/icons/dollar.svg"
-                    alt=""
-                    width="45"
-                    class="mr-4 inline-block sm:mr-2 xl:mr-4"
-                  />
-                  International USD 230
-                </p>
-              </div>
-              <a
-                href="#"
-                class="rounded-full bg-blue-docker px-8 py-2 font-poppins text-white"
-                >Register Now</a
-              >
-            </article>
-            <article class="fee__card drop-shadow-md">
-              <div class="rounded-t-lg bg-youth-blue py-4">
-                <p class="text-white">
-                  Student <br />
-                  (Undergraduate, Postgraduate)
-                </p>
-              </div>
-              <div
-                class="mb-8 rounded-b-lg bg-cream-vanilla p-8 text-left sm:p-4 xl:p-8"
-              >
-                <p class="mb-2 font-semibold">
-                  <img
-                    src="assets/img/icons/rupiah.svg"
-                    alt=""
-                    width="45"
-                    class="mr-4 inline-block sm:mr-2 xl:mr-4"
-                  />
-                  Local IDR 2.000.000
-                </p>
-                <p class="font-semibold">
-                  <img
-                    src="assets/img/icons/dollar.svg"
-                    alt=""
-                    width="45"
-                    class="mr-4 inline-block sm:mr-2 xl:mr-4"
-                  />
-                  International USD 200
-                </p>
-              </div>
-              <a
-                href="#"
-                class="rounded-full bg-blue-docker px-8 py-2 font-poppins text-white"
-                >Register Now</a
-              >
-            </article>
-            <article class="fee__card drop-shadow-md">
-              <div class="rounded-t-lg bg-youth-blue py-4">
-                <p class="text-white">
-                  Charge per extra Paper <br />
-                  Submission
-                </p>
-              </div>
-              <div
-                class="mb-8 rounded-b-lg bg-cream-vanilla p-8 text-left sm:p-4 xl:p-8"
-              >
-                <p class="mb-2 font-semibold">
-                  <img
-                    src="assets/img/icons/rupiah.svg"
-                    alt=""
-                    width="45"
-                    class="mr-4 inline-block sm:mr-2 xl:mr-4"
-                  />
-                  Local IDR 1.500.000
-                </p>
-                <p class="font-semibold">
-                  <img
-                    src="assets/img/icons/dollar.svg"
-                    alt=""
-                    width="45"
-                    class="mr-4 inline-block sm:mr-2 xl:mr-4"
-                  />
-                  International USD 100
-                </p>
-              </div>
-              <a
-                href="#"
-                class="rounded-full bg-blue-docker px-8 py-2 font-poppins text-white"
-                >Register Now</a
-              >
-            </article>
-          </div>
-        </div>
+         <!-- First column -->
+      <div>
+      <!-- Card -->
+          <div
+          class="block rounded-lg drop-shadow-md bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        <div
+        class="relative overflow-hidden bg-cover bg-no-repeat shadow-lg"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <img
+          class="h-auto rounded-t-lg"
+          src="/assets/img/speaker/Berita1.jpeg"
+          alt="" />
+        <a href="#!">
+          <div
+            class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+        </a>
+      </div>
+      <div class="px-6 py-6">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+          Magang Kampus Merdeka di BCF-Yamali TB, 24 Mahasiswa Diajak Berkarya Secara Nyata
+        </h5>
+        <p class="mb-4 text-gray-500 dark:text-neutral-400">
+          <small
+            >Upload <u>13.09.2023</u> 
+            <a href="" class="text-dark">Admin</a></small
+          >
+        </p>
+        <p class="py-4 text-base text-neutral-500 dark:text-neutral-200">
+          Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
+          vulputate. Ut vulputate est non quam dignissim elementum. Donec a
+          ullamcorper diam.
+        </p>
+        <button
+          type="button"
+          data-te-ripple-init
+          data-te-ripple-color="primary"
+          class="rounded-full bg-blue-docker px-8 py-2 font-poppins text-white">
+          Read more
+        </button>
+      </div>
+    </div>
+    <!-- Card -->
+  </div>
+  <!-- First column -->
+  <!-- Second column -->
+  <div>
+    <!-- Card -->
+    <div
+      class="block rounded-lg drop-shadow-md bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+      <div
+        class="relative overflow-hidden bg-cover bg-no-repeat shadow-lg"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <img
+          class="h-auto rounded-t-lg"
+          src="/assets/img/speaker/Berita2.PNG"
+          alt="" />
+        <a href="#!">
+          <div
+            class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+        </a>
+      </div>
+      <div class="px-6 py-6">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+          FANTASTIS, SEGINI BIAYA PENGOBATAN SATU PASIEN TBC-MDR
+        </h5>
+        <p class="mb-4 text-gray-500 dark:text-neutral-400">
+          <small
+            >Upload <u>13.09.2023</u>
+            <a href="" class="text-dark">Admin</a></small
+          >
+        </p>
+        <p class="py-4 text-base text-neutral-500 dark:text-neutral-200">
+          Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
+          vulputate. Ut vulputate est non quam dignissim elementum. Donec a
+          ullamcorper diam.
+        </p>
+        <button
+          type="button"
+          data-te-ripple-init
+          data-te-ripple-color="primary"
+          class="rounded-full bg-blue-docker px-8 py-2 font-poppins text-white">
+          Read more
+        </button>
+      </div>
+    </div>
+    <!-- Card -->
+  </div>
+  <!-- Second column -->
+
+  <!-- Third column -->
+  <div>
+    <!-- Card -->
+    <div
+      class="block rounded-lg drop-shadow-md bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+      <div
+        class="relative overflow-hidden bg-cover bg-no-repeat shadow-lg"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <img
+          class="w-full rounded-t-lg"
+          src="https://mdbootstrap.com/img/new/textures/small/148.jpg"
+          alt="" />
+        <a href="#!">
+          <div
+            class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+        </a>
+      </div>
+      <div class="px-6 py-6">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+          Artikel
+        </h5>
+        <p class="mb-4 text-gray-500 dark:text-neutral-400">
+          <small
+            >Finished <u>13.09.2023</u> for
+            <a href="" class="text-dark">Techify</a></small
+          >
+        </p>
+        <p class="py-4 text-base text-neutral-500 dark:text-neutral-200">
+          Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
+          vulputate. Ut vulputate est non quam dignissim elementum. Donec a
+          ullamcorper diam.
+        </p>
+        <button
+          type="button"
+          data-te-ripple-init
+          data-te-ripple-color="primary"
+          class="rounded-full bg-blue-docker px-8 py-2 font-poppins text-white">
+          Read more
+        </button>
+      </div>
+    </div>
+    <!-- Card -->
+
       </section>
 
-      <!--- ==================== DATE ===================== -->
-      <section class="pb-24 pt-24 xl:pb-32" id="date">
-        <div class="container p-5 text-center font-poppins xs:px-8 xl:px-12">
-          <div class="date__title">
-            <span class="section-subtitle">IMPORTANT</span>
-            <h2 class="section-title section-title-border text-navy-blue">
-              Important Date
-            </h2>
-          </div>
-          <div class="mt-20 flex items-center justify-center gap-x-20">
-            <img
-              src="assets/img/hero-announcement.png"
-              alt=""
-              class="date__img hidden h-[180px] xl:inline-block"
-              loading="lazy"
-            />
-            <div
-              class="date__line relative flex flex-col gap-y-6 rounded border-l-[3px] border-red-bata py-8 text-left font-poppins before:absolute before:left-0 before:top-0 before:h-[10px] before:w-[10px] before:-translate-x-[.425rem] before:-translate-y-0.5 before:rounded-full before:bg-[#CD2A2E] before:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[10px] after:w-[10px] after:-translate-x-[.425rem] after:translate-y-0.5 after:rounded-full after:bg-[#CD2A2E] after:content-['']"
-            >
-              <div
-                class="before:top:0 date__date relative mb-4 pl-8 before:absolute before:left-0 before:top-1 before:h-[15px] before:w-[15px] before:-translate-x-[.5rem] before:rounded-full before:bg-yellow-sunrise before:content-['']"
-              >
-                <span class="font-semibold text-yellow-sunrise"
-                  >14 July 2023
-                </span>
-                <p class="font-medium">Abstract Submission Deadline</p>
-              </div>
-              <div
-                class="before:top:0 date__date relative mb-4 pl-8 before:absolute before:left-0 before:top-1 before:h-[15px] before:w-[15px] before:-translate-x-[.5rem] before:rounded-full before:bg-[#FD9031] before:content-['']"
-              >
-                <span class="font-semibold text-[#FD9031]">20 July 2023 </span>
-                <p class="font-medium">Acceptance Notification</p>
-              </div>
-              <div
-                class="before:top:0 date__date relative mb-4 pl-8 before:absolute before:left-0 before:top-1 before:h-[15px] before:w-[15px] before:-translate-x-[.5rem] before:rounded-full before:bg-[#FD9031] before:content-['']"
-              >
-                <span class="font-semibold text-[#FD9031]"
-                  >1 - 10 August 2023
-                </span>
-                <p class="font-medium">Payment</p>
-              </div>
-              <div
-                class="before:top:0 date__date relative mb-4 pl-8 before:absolute before:left-0 before:top-1 before:h-[15px] before:w-[15px] before:-translate-x-[.5rem] before:rounded-full before:bg-red-bata before:content-['']"
-              >
-                <span class="font-semibold text-red-bata"
-                  >25 September 2023
-                </span>
-                <p class="font-medium">Full Paper Submission Deadline</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <!--- ==================== SUBMISSION ===================== -->
-      <section class="py-12 xl:py-32" id="submission">
+      <section class="py-12 xl:py-32" id="topics">
         <div class="container xs:px-8 xl:px-12">
           <div class="submission__title text-center xl:text-left">
             <span class="section-subtitle section-subtitle-border"
-              >Submission</span
+              >Program</span
             >
-            <h2 class="section-title text-navy-blue">Submission Template</h2>
+            <h2 class="section-title text-navy-blue">Program Kerja</h2>
           </div>
           <div class="mt-12 flex justify-between">
             <img
-              src="assets/img/hero-submission.png"
+              src="assets/img/Program-kerja.jpeg"
               alt=""
               loading="lazy"
-              width="520"
+              width="400"
               class="submission__img hidden rounded-lg shadow-2xl xl:inline-block"
               loading="lazy"
             />
@@ -583,149 +490,49 @@
               class="submission__text px-6 font-poppins text-sm xl:pl-6 xl:pr-0 xl:text-base"
             >
               <h3 class="font-raleway font-medium">
-                AUTHOR GUIDELINE
+                Program Kerja YAMALI TB merupakan wujud aksi nyata dari YAMALI TB dalam usaha mengeliminasi Tuberkulosis di Sulawesi Selatan melalui beberapa program sebagai berikut:
               </h3>
               <ol class="list-decimal pl-4 pt-1">
-                <span>
-                  Authors are required to type the manuscript using the Microsoft Word 2010 format (.docx) 
-                  in accordance with the full paper template and strictly follow the paper format, style, 
-                  and fonts as specified in the following guidelines:
-                <span>
-                <li> <a class="hover:text-blue-600 xl:hover:text-blue-600" href="https://drive.google.com/drive/folders/1agjOpa4eJM4yfhnRgxBVY3wzh7biGCx3">
-                  A4 Paper Template
+                <li> <a class="hover:text-blue-600 xl:hover:text-blue-600">
+                  Sebagai pengelola program TB Komunitas di wilayah Sulawesi Selatan melalui pendanaan GF-TB ATM via Konsorsium Penabulu-STPI
                 </a>
                 </li>
-                <li> <a class="hover:text-blue-600 xl:hover:text-blue-600" href="https://drive.google.com/drive/folders/1agjOpa4eJM4yfhnRgxBVY3wzh7biGCx3"> 
-                  Microsoft Word Template Guidelines.
+                <li> <a class="hover:text-blue-600 xl:hover:text-blue-600"> 
+                  Secara kelembagaan, YAMALI TB sebagai sebuah NGO bekerja untuk penguatan kelembagaan dan pemenuhan kebutuhan orang-orang terdampak TBC, upaya advokasi untuk isu dan pembiayaan TBC serta penyebarluasan informasi dan perkembangan situasi TBC di Indonesia dan Sulawesi Selatan pada khususnya.
                 </a>
                 </li >
-                <li> <a class="hover:text-blue-600 xl:hover:text-blue-600" href="https://drive.google.com/drive/folders/1agjOpa4eJM4yfhnRgxBVY3wzh7biGCx3">
-                  Example Microsoft Word Document
+                <li> <a class="hover:text-blue-600 xl:hover:text-blue-600">
+                  Penguatan dan perluasan relasi untuk kepentingan isu TBC, baik dengan kegiatan pendidikan maupun pengabdian masyarakat
                   </a>
                 </li>
               </ol>
-              <p class="font-semibold">
-                *Please refer to authors guideline regarding how to submit your paper to the Morressier platform:</br>
-                <a href="https://support.morressier.com/en/articles/5690396-authors-guide-to-submitting-a-paper" class="text-blue-700 xl:text-violet-700">Authors Guide To Submitting A Paper</a>
-              </p>
             </div>
           </div>
         </div>
-      </section>
+      </section --> 
 
       <!--- ==================== THEME ===================== -->
-      <section class="relative mb-24 bg-hero-topics bg-cover bg-fixed py-32">
-        <div class="absolute inset-0 bg-black/50"></div>
+      <section class="relative mb-24 bg-[#F3F5FA]  bg-fixed py-32">
+        <div class="absolute"></div>
         <div
-          class="container relative z-10 text-center text-white xs:px-8 xl:px-12"
+          class="container relative z-10 text-center text-navy-blue xs:px-8 xl:px-12"
         >
-          <h2 class="section-title theme__title mb-10">THEME</h2>
+          <h2 class="section-title theme__title mb-10">Memberantas Penyakit Tuberkulosis bersama YAMALI TB</h2>
           <p
-            class="theme__desc mx-4 rounded-lg bg-orange-lemon bg-opacity-40 bg-clip-padding p-2 font-jost text-sm font-bold leading-[2] shadow-md shadow-orange-lemon/30 backdrop-blur-xl backdrop-filter xl:mx-auto xl:w-[40ch] xl:text-3xl xl:leading-[1.5]"
+            class="theme__desc mx-4 text-white rounded-lg bg-black bg-opacity-40 bg-clip-padding p-2 font-jost text-sm font-bold leading-[2] shadow-md shadow-orange-lemon/30 backdrop-blur-xl backdrop-filter xl:mx-auto xl:w-[40ch] xl:text-3xl xl:leading-[1.5]"
           >
-            “Elevating Research and Innovation in Geoscience and Geological
-            Engineering for Sustainable and Resilient Nation in anticipating
-            Climate Change Impact to Environment and Societies”
+            “Yamali TB adalah lembaga pemegang atau pelaksana program tb komunitas Global Fund-ATM di wilayah Sulawesi Selatan”
           </p>
         </div>
-      </section>
-
-      <!--- ==================== SPEECH ===================== -->
-      <section
-        class="relative bg-hero-committees bg-cover bg-fixed py-24 xl:py-32"
-      >
-        <div class="absolute inset-0 bg-black/50"></div>
-        <div
-          class="container relative z-10 px-8 text-center text-white xs:px-8 xl:px-12"
-        >
-          <h2 class="section-title speech__title mb-10">WELCOME SPEECH</h2>
-          <div
-            class="flex flex-col items-center justify-between gap-y-16 sm:flex-row"
-          >
-            <div
-              class="speech__left flex-grow font-jost text-sm sm:text-left xl:text-xl"
-            >
-              <img
-                src="assets/img/speaker/speaker1.png"
-                alt="Prof. Dr. Ir. Jamaluddin Jompa, M.Sc."
-                class="h-[325px] shadow-xl shadow-orange-lemon/60 xl:ml-8 xl:h-[initial] xl:shadow-[-45px_-25px_10px] xl:shadow-orange-lemon/60"
-                loading="lazy"
-              />
-              <div class="xl:pl-7">
-                <h3 class="mt-6">Prof. Dr. Ir. Jamaluddin Jompa, M.Sc.</h3>
-                <p>
-                  Rector Hasanuddin University <br />
-                  Indonesia
-                </p>
-              </div>
-            </div>
-            <div
-              class="speech__right flex-grow font-jost text-sm sm:text-right xl:text-xl"
-            >
-              <img
-                src="assets/img/speaker/speaker2.png"
-                alt="Prof. Dr. Eng. Ir. Muhammad Isran Ramli, ST., MT."
-                class="inline-block h-[325px] shadow-xl shadow-orange-lemon/60 sm:mt-5 xl:mr-8 xl:h-[initial] xl:shadow-[45px_-25px_10px] xl:shadow-orange-lemon/60"
-                loading="lazy"
-              />
-              <div class="xl:pr-7">
-                <h3 class="mt-6">
-                  Prof.Dr.Eng.Ir.Muhammad Isran Ramli,ST.,MT.
-                </h3>
-                <p>
-                  Decan Faculty Of Engineering <br />
-                  Hasanuddin University <br />
-                  Indonesia
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--- ==================== KEYNOTE ===================== -->
-      <section class="py-12 xl:py-32">
-        <div
-          class="container flex flex-col-reverse items-center gap-x-12 px-6 font-jost xs:px-8 xl:flex-row xl:px-12"
-        >
-          <img
-            src="assets/img/speaker/main-speaker.png"
-            alt="Ir. H Mohammad Ramadhan Pomanto "
-            class="keynote__img hidden h-[400px] rounded-lg shadow-xl xl:inline-block"
-            loading="lazy"
-          />
-          <div class="keynote__text py-6 text-center">
-            <span class="section-subtitle section-subtitle-border hidden"
-              >KEYNOTE</span
-            >
-            <h2 class="section-title text-navy-blue xl:!text-4xl text-center xl:mt-6">
-              KEYNOTE SPEAKER
-            </h2>
-            <p
-              class="mb-8 mt-6 text-sm xl:mb-12 xl:mt-8 xl:w-[60ch] xl:text-base"
-            >
-          <br />
-        <br />
-            </p>
-            <img
-              src="assets/img/speaker/main-speaker.png"
-              alt="Ir. H Mohammad Ramadhan Pomanto "
-              class="keynote__img mb-6 inline-block w-full rounded-lg shadow-xl sm:w-full sm:flex-col items-center xl:hidden "
-              loading="lazy"
-            />
-            <h3 class="font-bold text-center">Ir. H Mohammad Ramadhan Pomanto</h3>
-            <p class="text-center">Major of Makassar City, Indonesia</p>
-          </div>
-        </div>
-      </section>
+      </section>  
 
       <!--- ==================== SPEAKER ===================== -->
-      <section class="bg-[#F3F5FA] py-12" id="speakers">
+      <section class="mb-32 bg-[#F3F5FA]  py-12" id="kader">
         <div class="container text-center xs:px-8 xl:px-12">
           <div class="speaker__title">
-            <span class="section-subtitle">INVITED</span>
+            <span class="section-subtitle">Cerita</span>
             <h2 class="section-title section-title-border text-navy-blue">
-              Invited speaker
+              KADER YAMALI TB 
             </h2>
           </div>
           <div
@@ -735,269 +542,363 @@
               class="speaker__card flex w-full flex-col items-center gap-x-6 gap-y-4 rounded-lg bg-white p-4 text-center text-sm shadow-lg xl:flex-row xl:text-left"
             >
               <img
-                src="assets/img/speaker/Prof. Sang-Ho Yun.jpeg"
+                src="assets/img/speaker/kader1.jpeg"
                 alt=""
-                class="rounded-full"
+                class="rounded-full h-[200px]"
                 loading="lazy"
               />
               <div>
                 <h3 class="font-semibold text-navy-blue xl:text-xl">
-                  Prof. Sang-Ho Yun
+                  "Mangkir minum obat hanya akan membuatmu mangkir dari kesembuhan"
                 </h3>
-                <p>EOS Singapore, Singapore</p>
+                <p>Petty Fera </p>
+                <p>Kader TB, 27 Tahun</p>
               </div>
             </article>
             <article
               class="speaker__card flex w-full flex-col items-center gap-x-6 gap-y-4 rounded-lg bg-white p-4 text-center text-sm shadow-lg xl:flex-row xl:text-left"
             >
               <img
-                src="assets/img/speaker/Stuart Phin.jpeg"
+                src="assets/img/speaker/kader2.jpeg"
                 alt=""
-                class="rounded-full"
+                class="rounded-full h-[200px]"
                 loading="lazy"
               />
               <div>
                 <h3 class="font-semibold text-navy-blue xl:text-xl">
-                  Professor Stuart Phinn
-                </h3>
-                <p>University of Queensland, Australia</p>
+                  "Saya selalu berharap, bukan hanya obat-obatan yang terus menerus diminum, tetapi keyakinan diri, dukungan keluarga, juga berserah diri pada-Nya, adalah hal yang perlu dimiliki pasien TB"                </h3>
+                <p>Sri Wahyuni</p>
+                <p>Kader TB | 25 tahun</p>
               </div>
             </article>
             <article
               class="speaker__card flex w-full flex-col items-center gap-x-6 gap-y-4 rounded-lg bg-white p-4 text-center text-sm shadow-lg xl:flex-row xl:text-left"
             >
               <img
-                src="assets/img/speaker/Prof. Eelco J. Rohling.jpeg"
+                src="assets/img/speaker/kader3.jpeg"
                 alt=""
-                class="rounded-full"
+                class="rounded-full h-[200px]"
                 loading="lazy"
               />
               <div>
                 <h3 class="font-semibold text-navy-blue xl:text-xl">
-                  Prof. Eelco J. Rohling
+                  "Selama menjadi kader saya harus berhadapan dengan berbagai tipe pasien, ada yang rewel, penurut, inisiatif, dan lain-lain"
                 </h3>
-                <p>Australian National University, Australia</p>
+                <p>Rusnita Sari</p>
+                <p>Kader TB | 32 tahun</p>
               </div>
             </article>
             <article
               class="speaker__card flex w-full flex-col items-center gap-x-6 gap-y-4 rounded-lg bg-white p-4 text-center text-sm shadow-lg xl:flex-row xl:text-left"
             >
               <img
-                src="assets/img/speaker/Prof. Josaphat.jpeg"
+                src="assets/img/speaker/kader4.jpeg"
                 alt=""
-                class="rounded-full"
+                class="rounded-full h-[200px]"
                 loading="lazy"
               />
               <div>
                 <h3 class="font-semibold text-navy-blue xl:text-xl">
-                  Prof. Josaphat Tetuko Sri Sumantyo
+                  "Pengalaman yang paling berharga selama saya hidup, bukan tentang kesembuhan, tetapi tentang bagaimana membantu dan menjadikan manusia menjadi lebih kuat, tak mudah goyah meski tubuh digerogoti penyakit"
                 </h3>
-                <p>Chiba University, Japan</p>
+                <p>Herawati</p>
+                <p>Kader TB | 25 tahun</p>
               </div>
             </article>
           </div>
         </div>
       </section>
-
-      <!--- ==================== COMMITTEE ===================== -->
-      <section class="py-12 xl:py-24" id="committee">
-        <div class="container px-6 font-poppins xs:px-8 xl:px-12">
-          <div class="committee__title">
-            <span class="section-subtitle section-subtitle-border"
-              >Committee</span
-            >
-            <h2 class="section-title text-navy-blue">Committee</h2>
-          </div>
-          <div class="mt-8 grid gap-8 xl:grid-cols-2">
-            <div>
-              <div class="committee__list mb-4">
-                <h3 class="mb-2 font-raleway text-lg font-medium xl:text-xl">
-                  International Scientific Committee (ISC)
-                </h3>
-                <ul class="text-sm">
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>
-                    Prof. Dr. Ir. Muhammad Arsyad, M.T
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>
-                    Prof. Dr. Eng. Muhammad Isran Ramli
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>
-                    Prof. Dr.rer.nat.Ir. A. M. Imran
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>
-                    Prof. Dr. Eng. Asri Jaya, ST., MT
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>
-                    Prof. Dr. Eng. Adi Maulana, M.Phill.,
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>
-                    Prof. Dr. Adi Tonggiroh, S.T.
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>
-                    Dr. Ir. Safri Burhanuddin, Dea
-                  </li>
-                </ul>
-              </div>
-              <div class="committee__list">
-                <h3 class="mb-2 font-raleway text-lg font-medium xl:text-xl">
-                  Steering Board:
-                </h3>
-                <ul class="text-sm">
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>Dr. Eng. Ir. Muhammad Ramli, MT
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>Dr. Amil Ahmad Ilham, S.T., M.IT.
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>Dr. Eng. Ir. Muhammad Rusman, M.T.
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>Dr. Ir. Rustan Tarakka, M.T.
-                  </li>
-                  <li>
-                    <i class="bx bx-check-double pr-2"></i>Dr. Eng Hendra Pachri, S.T M.Eng
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="committee__list">
-              <h3 class="mb-2 font-raleway text-lg font-medium xl:text-xl">
-                Organizing Commitee:
-              </h3>
-              <ul class="text-sm">
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Chair 	: Eng. Ilham Alimuddin, ST., M.GIS. Ph.D
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Secretary 	: Safruddim, S.T., M.Eng
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Treasurer	: Tajuddin
-                </li>
-              </ul>
-              <h4 class="mb-2 font-raleway text-lg font-medium xl:text-xl">
-                Members:
-              </h4>
-              <ul class="text-sm">
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ir. M. Fauzi Arifin, M.Si
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ir. Hj. Ratna Husain L, Mt
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ir. Hj. Rohaya Langkoke, M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ir. Kaharuddin MS, M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ir. Busthan Azikin, M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Ir. Agustinus T., M.Si
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Ir. Jamal Rauf Husain, M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ir. H. Hamid Umar, M.S
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ir. Musri Ma, M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ulva Ria Irfan, S.T., M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr.Ir. Sultan, MT
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Ir. Haerany Sirajuddin, M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Dr. Eng Meutia Farida, ST., MT
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Sahabuddin, S.T., M.Eng.
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Bahrul Hidayat, S.T., M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Baso Rezki Maulana, S.T. M.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Muhammad Alief Fahdal, S.T., M.Sc
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Haidir, S.T
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Fadhil Rizki Clausthaldi,ST., B,Eng.,M.Sc.
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Zarah Arwieny Hanami, S.T., M.T.
-                </li>
-                <li>
-                  <i class="bx bx-check-double pr-2"></i>Suhana
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--- ==================== VENUE ===================== -->
-      <section class="py-12 xl:py-24">
-        <div class="container px-6 xs:px-8 xl:px-12">
-          <div class="venue__title">
-            <span class="section-subtitle section-subtitle-border">VENUE</span>
-            <h2 class="section-title !text-base text-navy-blue xl:text-2xl">
-              Unhas Hotel and Convention, <br />
-              Universitas Hasanuddin
-            </h2>
-          </div>
-          <div
-            class="mt-5 flex flex-col items-center justify-between gap-x-6 font-poppins xl:flex-row"
+<!--Mitra Kami-->
+      <section class="mb-24 bg-[#F3F5FA] py-20 xl:py-24" id="about">
+        <div class="container text-center xs:px-8 xl:px-12">
+          <span class="section-subtitle !text-navy-blue">MITRA KAMI</span>
+          <h2
+            class="section-title section-title-border text-navy-blue after:!bg-[#FFC451]"
           >
-            <div class="veneu__text basis-4/5 text-xs xl:text-base">
-              <p class="leading-[1.6]">
-                Meetings, conferences and events at unhas hotel promise an ambience of exclusivity and privacy for groups of any size. Unhas Hotel is equipped with the most advanced presentation and staging. Unhas hotel services ensure that everyone, from the planner to the guests or delegates, enjoys individualized attention
-              </p>
-              <h3 class="my-2 text-sm font-medium xl:mb-2 xl:mt-5 xl:text-lg">
-                Unhas Hotel and Convention
-              </h3>
-              <p>
-                Hasanuddin University, perintis Kemerdekaan No.KM 10, 
-                <br />Tamalanrea Indah, Kec. Tamalanrea.
-                <br />Kota Makassar, Sulawesi Selatan 90245
-                <br />
-                Tel: 0811-4467-373 <br />
-              </p>
+            Pemerintah
+          </h2>
+
+          <div
+            class="swiper-topics swiper mt-20 !overflow-visible px-10 xl:px-0"
+          >
+            <div class="swiper-wrapper">
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Bone.png"
+                    alt="Kasri Riswadi"
+                    class="inline-block h-[250px] w-[250px]"
+                  />
+                </span>
+              </article>
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Dinas Kesehatan Kabupaten Jeneponto.png"
+                    alt="Dinas Kesehatan Kabupaten Jeneponto"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>  
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Dinas Kesehatan Kota Makassar.png"
+                    alt="Dinas Kesehatan Kabupaten Jeneponto"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>  
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Dinas Kesehatan Provinsi Sulawesi Selatan.png"
+                    alt="Dinas Kesehatan Kabupaten Jeneponto"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>  
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Dinas Kesehatan Kabupaten Wajo.png"
+                    alt="Dinas Kesehatan Kabupaten Jeneponto"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Dinas Kesehatan Kabupaten Pinrang.png"
+                    alt="Dinas Kesehatan Kabupaten Pinrang"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>  
+
+              <article
+              class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+            >
+              <span
+                class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+              >
+                <img
+                  src="assets/img/Dinas Kesehatan Kabupaten Bulukumba.png"
+                  alt="Dinas Kesehatan Kabupaten Bulukumba"
+                  class="inline-block h-[240px] w-[200px] rounded-md"
+                />
+              </span>
+            </article>  
             </div>
-            
-            <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.802667585119!2d119.48630171476415!3d-5.135453196273167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbefd94db791629%3A0x2cfefda72a3cb257!2sUnhas%20Hotel%20%26%20Convention!5e0!3m2!1sid!2sid!4v1683986554944!5m2!1sid!2sid" 
-            width="600" height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade""
-            class="veneu__map mt-8 h-[250px] w-full rounded-2xl shadow-lg sm:h-[300px] xl:mt-0 xl:h-[450px] xl:w-[600px]"
-            ></iframe>
+
+            <div class="swiper-pagination !-bottom-16"></div>
           </div>
         </div>
       </section>
+        
+      <section class="mb-24 bg-[#F3F5FA] py-20 xl:py-24" id="about">
+        <div class="container text-center xs:px-8 xl:px-12">
+          <span class="section-subtitle !text-navy-blue">MITRA KAMI</span>
+          <h2
+            class="section-title section-title-border text-navy-blue after:!bg-[#FFC451]"
+          >
+            CSO
+          </h2>
 
+          <div
+            class="swiper-topics swiper mt-20 !overflow-visible px-10 xl:px-0"
+          >
+            <div class="swiper-wrapper">
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Bakrie Center Foundation 1.png"
+                    alt="BCF-Yamali"
+                    class="inline-block h-[250px] w-[250px]"
+                  />
+                </span>
+              </article>
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Pimpinan Cabang Muhammadiyah Kota Makassar.png"
+                    alt="Pimpinan Cabang Muhammadiyah Kota Makassar"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>  
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/Konsorsium Penabulu-STPI.png"
+                    alt="STPI"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>  
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/IMG_9389.PNG"
+                    alt="RSUD LABUANG BAJI"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>  
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/IMG_9390.JPG"
+                    alt="Dinas Kesehatan Kabupaten Jeneponto"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>
+
+              <article
+                class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+              >
+                <span
+                  class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+                >
+                  <img
+                    src="assets/img/logobalaiparu.JPG"
+                    alt="Dinas Kesehatan Kabupaten Pinrang"
+                    class="inline-block h-[240px] w-[200px] rounded-md"
+                  />
+                </span>
+              </article>  
+
+              <article
+              class="swiper-slide flex h-[350px] w-[350px] flex-col items-center justify-center rounded-md bg-white p-5 font-poppins shadow-xl"
+            >
+              <span
+                class="mb-4 inline-flex h-[450px] w-[255px] items-center justify-center"
+              >
+                <img
+                  src="assets/img/PC IMM Makassar Timur.png"
+                  alt="Dinas Kesehatan Kabupaten Bulukumba"
+                  class="inline-block h-[240px] w-[200px] rounded-md"
+                />
+              </span>
+            </article>  
+            </div>
+
+            <div class="swiper-pagination !-bottom-16"></div>
+          </div>
+        </div>
+      </section>
+    
+<!--Mitra Kami-->
+
+<!--Lapor Diskriminasi TB-->
+<form class="mb-32 bg-[#F3F5FA]  py-12" id="report">
+  <div class="container text-center xs:px-8 xl:px-12">
+    <div class="speaker__title">
+      <span class="section-subtitle">Report</span>
+      <h2 class="section-title section-title-border text-navy-blue">
+        DISKRIMINASI PASIEN TB 
+      </h2>
+  <div class="flex flex-wrap -mx-3 mb-6 mt-24">
+    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+        Nama atau Inisial
+      </label>
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Masukkan Nama Anda">
+    </div>
+    
+  <div class="w-full md:w-1/2 px-3">
+    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
+      Pilih Jenis Kelamin
+    </label>
+    <div class="relative">
+      <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"  id="grid-state">
+        <option>Laki-laki</option>
+        <option>Perempuan</option>
+      </select>
+    </div>
+    </div>
+      <label class="block uppercase tracking-wide  text-gray-700 text-xs font-bold mb-2 mt-10" for="grid-first-name">
+        Umur
+      </label>
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Masukkan Umur Anda">
+
+      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 mt-10" for="grid-first-name">
+        Nomor Telepon
+      </label>
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Masukkan Nomor Telepon Anda">
+    
+      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 mt-10" for="grid-first-name">
+        Bentuk Diskriminasi
+      </label>
+      <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-36 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Masukkan Nomor Telepon Anda">
+    </textarea>
+
+    <div class="flex items-center justify-between">
+      <button class="bg-[#FF913A] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+        Kirim Laporan
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+  </form>
       <!--- ==================== CONTACT ===================== -->
       <section class="py-12 xl:py-24" id="contact">
         <div class="container px-6 xs:px-8 xl:px-24">
@@ -1013,9 +914,8 @@
                 Organizers Secretariat
               </h3>
               <p>
-                Campus II, Faculty of Engineering Unhas,, 
-                Jl. Poros Malino KM. 6 Bontomarannu Gowa, Borongloe, Kec. Bontomarannu, 
-                Gowa Regency, South Sulawesi 92171
+                Yamali TB
+                Jl. Cemara No.2, Paropo, Kec. Panakkukang, Kota Makassar, Sulawesi Selatan 90231
               </p>
             </div>
             <div class="contact">
@@ -1025,13 +925,13 @@
               <ul class="mb-8">
                 <li>
                   <i class="bx bx-check-double pr-1 xl:pr-2"></i>
-                  Safruddim, Hasanuddin University, 
-                  Tel:+62 853-4258-9109.
+                  Admin YAMALI TB
+                  0852-9995-7587
                 </li>
               </ul>
             </div>
-            <iframe
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.189541452341!2d119.50155117493432!3d-5.232897194744946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee13688eef335%3A0xac1549a1ffbac3d7!2sDEPARTEMEN%20GEOLOGI%20TEKNIK%20UNHAS!5e0!3m2!1sid!2sid!4v1683987265694!5m2!1sid!2sid" 
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.642772792119!2d119.45000907489676!3d-5.161042094816289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee356565b3ba5%3A0xb8bbbc8094a4a9cb!2sYamali%20TB!5e0!3m2!1sid!2sid!4v1698936517109!5m2!1sid!2sid"
             width="600" height="450" 
             style="border:0;" 
             allowfullscreen="" 
@@ -1054,13 +954,15 @@
             href="#"
             class="inline-flex items-center gap-x-5 font-raleway text-lg font-bold xl:text-2xl"
           >
-            <img src="assets/img/logo.svg" alt="" width="60" />
-            ICG2E 2023
+            <img src="assets/img/icons/Yamali Logo.svg" alt="" width="60" />
+            YAMALI TB SULAWESI SELATAN
           </a>
           <p class="mt-6 text-xs xl:text-sm">
-            Campus II, Faculty of Engineering Unhas, <br />
-                Jl. Poros Malino KM. 6 Bontomarannu Gowa, Borongloe, Kec. Bontomarannu, <br />
-                Gowa Regency, South Sulawesi 92171
+            Yamali TB menggerakkan para pegiat TBC Komunitas untuk berupaya dalam <br />
+            penemuan kasus baru dengan kegiatan penyuluhan aktif di masyarakat,  <br />
+            investigasi kontak serta pendampingan pasien hingga sembuh, <br />
+            advokasi isu TBC kepada pemangku kepentingan, serta meng   <br />
+            kampanyekan isu TBC di media sosial dan media massa.
           </p>
         </div>
         <div
@@ -1071,31 +973,27 @@
             <ul class="flex flex-col gap-y-4">
               <li class="flex items-center">
                 <i class="bx bx-chevron-right mr-1.5 text-white/80"></i>
-                <a href="#" class="text-xs hover:underline xl:text-sm">Home</a>
+                <a href="#" class="text-xs hover:underline xl:text-sm">BERANDA</a>
               </li>
               <li class="flex items-center">
                 <i class="bx bx-chevron-right mr-1.5 text-white/80"></i>
                 <a href="#" class="text-xs hover:underline xl:text-sm"
-                  >About us</a
-                >
+                  >TENTANG KAMI</a>
               </li>
               <li class="flex items-center">
                 <i class="bx bx-chevron-right mr-1.5 text-white/80"></i>
                 <a href="#" class="text-xs hover:underline xl:text-sm"
-                  >Important Dates</a
-                >
+                  >PROGRAM KERJA</a>
               </li>
               <li class="flex items-center">
                 <i class="bx bx-chevron-right mr-1.5 text-white/80"></i>
                 <a href="#" class="text-xs hover:underline xl:text-sm"
-                  >Speakers</a
-                >
+                  >BERITA</a>
               </li>
               <li class="flex items-center">
                 <i class="bx bx-chevron-right mr-1.5 text-white/80"></i>
                 <a href="#" class="text-xs hover:underline xl:text-sm"
-                  >Contact</a
-                >
+                  >STATISTIK KASUS</a>
               </li>
             </ul>
           </div>
@@ -1129,14 +1027,14 @@
         <div class="footer__copy">
           <p class="mb-2 text-white/80">
             © Copyright
-            <span class="font-semibold text-white">ICG2E 2023</span>. All Rights
+            <span class="font-semibold text-white">2023</span>. All Rights
             Reserved
           </p>
           <p class="font-thin text-white/80">
             Organized by
             <span class="font-semibold text-[#FFC451]">
-              DEPARTMENT OF GEOLOGICAL ENGINEERING <br />
-              FACULTY OF ENGINEERING HASANUDDIN UNIVERSITY</span
+              YAYASAN MASYARAKAT PEDULI TUBERKULOSIS <br />
+              SULAWESI SELATAN</span
             >
           </p>
         </div>
@@ -1161,5 +1059,8 @@
 
     <!--- ==================== JS ===================== -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Tw Elements -->
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
   </body>
 </html>
